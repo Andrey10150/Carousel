@@ -15,33 +15,34 @@ body,
 }
 
 .slide {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .slide1 {
-  background: url("./img/image1.jpg");
+  background: url("./img/image1.jpg") no-repeat center center fixed;
 }
 
 .slide2 {
-  background: url("./img/image2.jpg");
+  background: url("./img/image2.jpg") no-repeat center center fixed;
 }
 
 .slide3 {
-  background: url("./img/image3.jpg");
+  background: url("./img/image3.jpg") no-repeat center center fixed;
 }
 
 .slide4 {
-  background: url("./img/image4.jpg");
+  background: url("./img/image4.jpg") no-repeat center center fixed;
 }
 
 .slide5 {
-  background: url("./img/image5.jpg");
+  background: url("./img/image5.jpg") no-repeat center center fixed;
 }
 
 .slide6 {
-  background: url("./img/image6.jpg");
+  background: url("./img/image6.jpg") no-repeat center center fixed;
 }
 
 .slide-content {
